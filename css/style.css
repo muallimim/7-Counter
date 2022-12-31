@@ -1,0 +1,42 @@
+*{
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: coral;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+#count{
+    text-align: center;
+    margin: 0 10px;
+    width: 100px;
+    background-color: rgb(209, 98, 58);
+    border: none;
+}
+
+#dec, #inc{
+    padding: 0 20px; 
+    background-color: brown;
+    border: 1px solid black;
+ }
+
+ #dec:hover, #inc:hover{
+    color: white;
+    border: 1px solid white;
+ }
